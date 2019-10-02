@@ -44,7 +44,7 @@ namespace WebApplication3.Controllers
             else
                 torneio.WinnerFinal = torneio.WinnerK2;
 
-            return View(torneio);
+            return View(torneio); 
         }
 
         
